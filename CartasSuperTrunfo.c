@@ -33,10 +33,12 @@ int main() {
     printf("digite o pib: \n");
     scanf("%f", &pib);
 
-    printf("digite o numero de pontos turiticos: \n");
+    printf("digite o números de pontos turisticos: \n");
     scanf("%d", &turistico);
 
-    
+    printf("nome do estado: %s - codigo: %s - nome: %s\n", estado, codigo, nome);
+    printf("população: %d - area: %f - pib: %f - números de pontos turisticos: %d", população, area, pib, turistico);
+ 
 
 
 
