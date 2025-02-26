@@ -4,8 +4,53 @@ int main() {
     printf("Desafio super trufo!\n");
     return 0;
 }
+int main() {
+    printf("carta 1\n");
 
-// Desafio Super Trunfo - Países
+    char estado;
+    char codigo;
+    char nome;
+    int população;
+    float area;
+    float pib;
+    int turistico;
+
+    printf("digite seu estado: \n");
+    scanf("%s", &estado);
+
+    printf("digite seu codigo: \n");
+    scanf("%s", &codigo);
+    
+    printf("digite seu nome: \n");
+    scanf("%s", &nome);
+
+    printf("digite a população: \n");
+    scanf("%d", &população);
+
+    printf("digite sua area: \n");
+    scanf("%f", &area);
+
+    printf("digite o pib: \n");
+    scanf("%f", &pib);
+
+    printf("digite o numero de pontos turiticos: \n");
+    scanf("%d", &turistico);
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // Desafi o Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
